@@ -1,10 +1,3 @@
-//Assumptions:
-//-- Only 1 conversation can happen between 2 people
-//-- Introverts will not initiate communication with anyone
-//-- Friends will not initiate communication with anyone outside their party
-//-- Only Gossipers will initiate communication with anyone outside party
-//-- inputs are non-zero
-
 // maybe start with friends and end with introverts
 // considered permutations and combinations but too complex
 
