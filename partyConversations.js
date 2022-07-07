@@ -6,9 +6,18 @@
 //-- Inputs are non-zero
 //-- Introverts are the last ones to the party
 
-let X= 4;
-let Y = 7;
-let Z = 5;
+const prompt = require("prompt-sync")();
+const X = prompt("How many Introverts are there? ");
+const Y = prompt("How many Friends are there? ");
+const Z = prompt("How many Gossipers are there? ");
+
+console.log(`No of introverts: ${X}`);
+console.log(`No of introverts: ${Y}`);
+console.log(`No of introverts: ${Z}`);
+
+// let X= 0;
+// let Y = 8;
+// let Z = 3;
 
 let convFriends = 0;
 let minConvGossip = 0;
@@ -44,8 +53,8 @@ else if ( Y%2 != 0 )
     }
 }
 
-console.log(`Minimum number of converstaions: ${convFriends + minConvGossip}`);
-console.log(`Maximum number of converstaions: ${convFriends + maxConvGossip}`);
+console.log(`Minimum number of conversations: ${convFriends + minConvGossip}`);
+console.log(`Maximum number of conversations: ${convFriends + maxConvGossip}`);
 
 // console.log(`Conversations among Friends: ${convFriends}`);
 // console.log(`Min conversations among Gossipers: ${minConvGossip}`);
